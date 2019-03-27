@@ -216,6 +216,48 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
+# WFD
+PRODUCT_PACKAGES += \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/wfdservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdservice \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdservice.rc \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfigsink.xml \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/extractors/libmmparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/extractors/libmmparser.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libFileMux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFileMux.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmparser_lite.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libOmxMux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxMux.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdavenhancements.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdclient.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdcodecv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcodecv4l2.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdconfigutils.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdmminterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmminterface.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmsink.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdmmsrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmsrc.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdnative.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdnative.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdrtsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdrtsp.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdservice.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdsm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdsm.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfduibcinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcinterface.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsink.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsinkinterface.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsrc.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsrcinterface.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so
+
 PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
@@ -226,4 +268,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyServicelibrary \
     qcnvitems \
     qcrilhook \
-    qti-vzw-ims-internal
+    qti-vzw-ims-internal \
+    WfdService \
+    WfdCommon
